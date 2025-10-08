@@ -6,7 +6,7 @@ import BaseAbout from '@/components/sections/layouts/about/BaseAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import LogoFooter from '@/components/sections/layouts/footer/LogoFooter';
-import { Globe } from '@/components/bento/contents/Globe';
+import { Globe } from 'lucide-react';
 
 const theme: SiteTheme = {
   styleVariant: "funAndTrendy",
