@@ -52,9 +52,9 @@ export default function Home() {
           title="Tokenomics Overview"
           description="BarneyCoin has a strong foundation with a transparent mechanism."
           kpiItems={[
-            { value: '100M', description: 'Total Supply', longDescription: 'Total tokens that will ever exist.', icon: 'LucideIcon' },
-            { value: '50%', description: 'Market Cap', longDescription: 'The circulating market cap of the token.', icon: 'LucideIcon' },
-            { value: '0.01$', description: 'Current Price', longDescription: 'Current trading price of BarneyCoin.', icon: 'LucideIcon' }
+            { value: '100M', description: 'Total Supply', longDescription: 'Total tokens that will ever exist.', icon: 'Globe' },
+            { value: '50%', description: 'Market Cap', longDescription: 'The circulating market cap of the token.', icon: 'Globe' },
+            { value: '0.01$', description: 'Current Price', longDescription: 'Current trading price of BarneyCoin.', icon: 'Globe' }
           ]}
         />
       </div>

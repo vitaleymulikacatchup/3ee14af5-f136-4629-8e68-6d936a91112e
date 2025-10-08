@@ -27,12 +27,13 @@ export const metadata: Metadata = {
     type: "website",
     url: "/",
     siteName: "BarneyCoin",
-    image: {
-      url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/design-a-simple-high-contrast-logo-for-b-1759928097249-e1fb9813.jpg",
-      width: 1200,
-      height: 630,
-      alt: "BarneyCoin logo on a purple gradient with a friendly mascot"
-    }
+    images: [
+      { url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/design-a-simple-high-contrast-logo-for-b-1759928097249-e1fb9813.jpg",
+        width: 1200,
+        height: 630,
+        alt: "BarneyCoin logo on a purple gradient with a friendly mascot"
+      }
+    ],
   },
   twitter: {
     card: "summary_large_image",
