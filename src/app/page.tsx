@@ -6,6 +6,7 @@ import BaseAbout from '@/components/sections/layouts/about/BaseAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import LogoFooter from '@/components/sections/layouts/footer/LogoFooter';
+import { Globe } from '@/components/bento/contents/Globe';
 
 const theme: SiteTheme = {
   styleVariant: "funAndTrendy",
@@ -52,9 +53,9 @@ export default function Home() {
           title="Tokenomics Overview"
           description="BarneyCoin has a strong foundation with a transparent mechanism."
           kpiItems={[
-            { value: '100M', description: 'Total Supply', longDescription: 'Total tokens that will ever exist.', icon: 'Globe' },
-            { value: '50%', description: 'Market Cap', longDescription: 'The circulating market cap of the token.', icon: 'Globe' },
-            { value: '0.01$', description: 'Current Price', longDescription: 'Current trading price of BarneyCoin.', icon: 'Globe' }
+            { value: '100M', description: 'Total Supply', longDescription: 'Total tokens that will ever exist.', icon: Globe },
+            { value: '50%', description: 'Market Cap', longDescription: 'The circulating market cap of the token.', icon: Globe },
+            { value: '0.01$', description: 'Current Price', longDescription: 'Current trading price of BarneyCoin.', icon: Globe }
           ]}
         />
       </div>
